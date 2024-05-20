@@ -1,0 +1,20 @@
+.basket-title {
+  margin: 0 0 13px 0;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  color: #1c1c27
+}
+
+.basket-container {
+  display: flex;
+  gap: 127px;
+  margin-bottom: 407px;
+}
+
+.goods {
+  flex-basis: 57%;
+}

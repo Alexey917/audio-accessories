@@ -1,0 +1,22 @@
+.section-headphones {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.title-section-headphones {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  color: #838383;
+  margin: 0 0 20px 0;
+}
