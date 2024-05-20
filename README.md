@@ -1,21 +1,18 @@
 # Audio-accessories
 
-Тестовое задание  в УЦ Neoflex.
+Тестовое задание в УЦ Neoflex.
 
 ## Основные достижения
 
-- Были разработаны две страницы интернет-магазина аудио-аксессуаров используя React. Первая страница –каталог товаров, вторая – корзина с приобретенными 
-товарами
-- Для стилизации был использован CSS
-- Созданные компоненты продуманы с дальнейшим переиспользованием
-- Реализован удобный и масштабируемый роутинг с помощью React Router
-- Все элементы ссылок, иконок, отзываются при наведении на них
-- Реализовать переход с корзины обратно домой (через logo)
-- При изменении количества товаров в корзине, сумма и кол-во товаров изменяются
-- Данные о каждом товаре хранятся в виде элемента массива в файле headphones.js
-- Для передачи информации о выбранных в корзину позиций использовался SessionStorage
-
-
+- Разработаны две страницы интернет-магазина аудио-аксессуаров с использованием React: первая страница — каталог товаров, вторая — корзина с приобретенными товарами.
+- Для стилизации использован CSS.
+- Компоненты созданы с учётом возможности их дальнейшего переиспользования.
+- Реализован удобный и масштабируемый роутинг с помощью React Router.
+- Все элементы ссылок и иконок реагируют при наведении.
+- Реализован переход с корзины обратно на главную страницу через логотип.
+- При изменении количества товаров в корзине обновляются сумма и количество товаров.
+- Данные о каждом товаре хранятся в массиве в файле `headphones.js`.
+- Для передачи информации о выбранных в корзину позициях использовался SessionStorage.
 
 ## Технологический стек
 
@@ -23,31 +20,37 @@
 - CSS
 - JavaScript
 - React
-- react-router-dom
+- React Router
 
 ## Демо
 
-![Первая страница – каталог товаров](https://github.com/Alexey917/Alexey917/blob/main/assets/audio_1.png)
+![Каталог товаров](https://github.com/Alexey917/Alexey917/blob/main/assets/audio_1.png)
+![Каталог товаров](https://github.com/Alexey917/Alexey917/blob/main/assets/audio_2.png)
+![Корзина с приобретенными товарами](https://github.com/Alexey917/Alexey917/blob/main/assets/audio_3.png)
 
-![Первая страница – каталог товаров](https://github.com/Alexey917/Alexey917/blob/main/assets/audio_2.png) 
-
-![Вторая – корзина с приобретенными 
-товарами](https://github.com/Alexey917/Alexey917/blob/main/assets/audio_3.png) 
-
-### Предварительные требования
+## Предварительные требования
 
 Что необходимо установить на ПК для использования:
 
-- node.js
+- Node.js
 - npm
-- npm install -g create-react-app
+- create-react-app (установить глобально: `npm install -g create-react-app`)
 
-### Установка и начало работы
+## Установка и начало работы
 
-- git clone https://github.com/Alexey917/audio-accessories.git
-- cd audio-accessories
-- npm start
-
+1. Клонируйте репозиторий:
+    ```bash
+    git clone https://github.com/Alexey917/audio-accessories.git
+    ```
+2. Перейдите в каталог проекта:
+    ```bash
+    cd audio-accessories
+    ```
+3. Установите зависимости и запустите проект:
+    ```bash
+    npm install
+    npm start
+    ```
 
 # Getting Started with Create React App
 
@@ -59,7 +62,7 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
@@ -88,7 +91,7 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However, we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ## Learn More
 
