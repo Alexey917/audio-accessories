@@ -27,36 +27,26 @@
 
 ## Демо
 
-![Скриншот](url_к_изображению) - если есть скриншоты интерфейса, добавьте их сюда.
+![Первая страница – каталог товаров](https://github.com/Alexey917/Alexey917/blob/main/assets/audio_1.png)
 
-## Начало работы
+![Первая страница – каталог товаров](https://github.com/Alexey917/Alexey917/blob/main/assets/audio_2.png) 
 
-Эти инструкции помогут вам запустить копию проекта на вашем локальном компьютере для разработки и тестирования. Перед началом установите необходимые зависимости.
+![Вторая – корзина с приобретенными 
+товарами](https://github.com/Alexey917/Alexey917/blob/main/assets/audio_3.png) 
 
 ### Предварительные требования
 
 Что необходимо установить на ПК для использования:
 
-node.js
-npm
+- node.js
+- npm
+- npm install -g create-react-app
 
-bash
+### Установка и начало работы
 
-
-### Установка
-
-Шаг за шагом процесс установки и запуска проекта:
-
-```bash
-git clone https://github.com/yourusername/yourprojectname.git
-cd yourprojectname
-npm install
-npm start
-
-
-
-
-
+- git clone https://github.com/Alexey917/audio-accessories.git
+- cd audio-accessories
+- npm start
 
 
 # Getting Started with Create React App
